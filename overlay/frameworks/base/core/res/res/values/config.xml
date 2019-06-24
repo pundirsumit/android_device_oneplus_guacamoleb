@@ -350,7 +350,7 @@
     <integer translatable="false" name="config_brightness_ramp_rate_slow">60</integer>
 
     <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">48px</dimen>
+    <dimen name="rounded_corner_radius">4dp</dimen>
 
     <!-- Boolean indicating whether we want button brightness support -->
     <bool name="config_button_brightness_support">false</bool>
