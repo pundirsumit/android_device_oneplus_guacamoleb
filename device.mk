@@ -11,8 +11,3 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/rootdir/etc/fstab.qcom:system/etc/fstab.qcom
-
-# Camera
-PRODUCT_PACKAGES += \
-	vendor.lineage.camera.motor@1.0 \
-	vendor.lineage.camera.motor@1.0-service.oneplus_msmnile
