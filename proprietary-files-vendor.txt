@@ -1743,3 +1743,9 @@ vendor/etc/audio_platform_info_oppo.xml
 vendor/etc/mixer_paths_pahu.xml
 
 vendor/etc/izat.conf
+
+# Vibrator
+vendor/bin/hw/vendor.qti.hardware.vibrator@1.2-service
+vendor/etc/init/vendor.qti.hardware.vibrator@1.2-service.rc
+vendor/lib64/hw/vibrator.default.so
+vendor/lib/hw/vibrator.default.so
