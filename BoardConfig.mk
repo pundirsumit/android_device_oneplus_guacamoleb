@@ -32,5 +32,10 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
-# System.prop
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+# Treble
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
+# Fingerprint
+SOONG_CONFIG_oneplusMsmnileFodPlugin_posX = 452
+SOONG_CONFIG_oneplusMsmnileFodPlugin_posY = 1970
+SOONG_CONFIG_oneplusMsmnileFodPlugin_size = 190
